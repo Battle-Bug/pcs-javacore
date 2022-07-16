@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 public class Todos {
     //...
     List<String> taskList;
-    StringBuilder stringBuilder = new StringBuilder( );
+
 
     public Todos() {
         taskList = new ArrayList<>( );
@@ -29,6 +29,7 @@ public class Todos {
 
     public String getAllTasks() {
         //...
+        StringBuilder stringBuilder = new StringBuilder( );
         Collections.sort(taskList);
         for (String s : taskList) {
             stringBuilder.append(s + " ");

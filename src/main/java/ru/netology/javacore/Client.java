@@ -20,11 +20,11 @@ public class Client {
             PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
         ) {
            // out.println("{ \"type\": \"ADD\", \"task\": \"task #" + pickRandomChar() + "\" }");
-            out.println("{ \"type\": \"ADD\", \"task\": \"Поиграть в Dota2\" }");
-            out.println("{ \"type\": \"ADD\", \"task\": \"Выпить пивандепалы\" }");
+            //  out.println("{ \"type\": \"ADD\", \"task\": \"Поиграть в Dota2\" }");
+          //  out.println("{ \"type\": \"ADD\", \"task\": \"Выпить пивандепалы\" }");
             out.println("{ \"type\": \"ADD\", \"task\": \"Хватит дотки пора спать\" }");
-            out.println("{ \"type\": \"DELETE\", \"task\": \"Бахнуть еще\" }");
-            out.println("{ \"type\": \"ADD\", \"task\": \"Выпить чай, индийский чай\" }");
+           // out.println("{ \"type\": \"DELETE\", \"task\": \"Бахнуть еще\" }");
+           // out.println("{ \"type\": \"ADD\", \"task\": \"Выпить чай, индийский чай\" }");
 
             System.out.println(in.readLine( ));
         }

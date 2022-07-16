@@ -22,7 +22,7 @@ public class TodosTests {
         todos.addTask(s3);
 
 
-        String expected = "Пошпилить в Dota2 Полежать отдохнуть Убрать конуру Сходить погулять";
+        String expected = "Полежать отдохнуть Пошпилить в Dota2 Сходить погулять Убрать конуру";
         String result = todos.getAllTasks( );
 
 
@@ -43,7 +43,7 @@ public class TodosTests {
         todos.removeTask(s3);
 
 
-        String expected = "Пошпилить в Dota2 Убрать конуру Сходить погулять";
+        String expected = "Посмотреть телевизор Пошпилить в Dota2 Сходить погулять";
         String result = todos.getAllTasks( );
 
 
